@@ -1,0 +1,175 @@
+#contenedor {
+    display: table;
+    border: 2px solid #000;*/
+    width: 333px;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+}
+#contenidos {
+    display: table-row;
+}
+#columna1, #columna2, #columna3 {
+    display: table-cell;
+    border: 1px solid #000;
+    vertical-align: middle;
+    padding: 10px; 
+}
+#contenedorSec {
+    display: table;
+    border: 2px solid #000;*/
+    width: 333px;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+}
+#contenidosSec {
+    display: table-row;
+}
+#columna1Sec, #columna2Sec, #columna3Sec {
+    display: table-cell;
+    border: 1px solid #000;
+    vertical-align: left;
+    padding: 10px; 
+}
+#contenedorActual {
+    display: table;
+    /*border: 2px solid #000;*/
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+#columnaActual{
+    display: table-cell;
+    border: 1px solid #000;
+    vertical-align: middle;
+    padding: 10px;
+   
+}
+#contenedorImg{
+    width: 100%;
+}
+/*CONTENEDOR MENU*/
+#contenedorMenu {
+    display: table;
+    border: 2px solid #000;*/
+    width: 333px;
+    text-align: center;
+    margin-left: 600px ;
+    /*float: left;*/
+    /*align-items: center ;
+    justify-content: center;*/
+}
+#contenidosMenu {
+    display: table-row;
+}
+#columna1Menu, #columna2Menu, #columna3Menu {
+    display: table-cell;
+    /*border: 1px solid #000;*/
+    vertical-align: middle;
+    padding: 10px;
+}
+#titulo{
+    text-align: center; 
+    margin: 0 auto;
+}
+
+#login{
+    float: right;
+    width: 40%;
+    display: table;
+    /*border: 2px solid #000;*/
+    width: 333px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*IMAGENES*/
+#imgLeft{
+    float: left;
+    width:50px;
+    height:50px;
+}
+/*RECOMENDADOS INICIO*/
+#tablasPortada{
+        position: absolute;
+        /*nos posicionamos en el centro del navegador*/
+        top:50%;
+        left:50%;
+        /*determinamos una anchura*/
+        width:400px;
+        /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+        margin-left:-200px;
+        /*determinamos una altura*/
+        height:300px;
+        /*indicamos que el margen superior, es la mitad de la altura*/
+        margin-top:-150px;
+}
+/**/
+/*CONTENEDORES LIBROS/COMICS/MANGAS*/
+#contenedorLCM {
+
+    display: table;
+    border: 1px solid #000;*/
+   /* width: 333px;*/
+    text-align: center;
+    /*margin: 0 auto;*/   
+    float: left;
+}
+#contenidosLCM {
+    display: table-row;
+}
+#columna1LCM, #columna2LCM, #columna3LCM {
+    display: table-cell;
+    border: 1px solid #000;
+    vertical-align: middle;
+    /*padding: 10px;*/ 
+}
+/*CONTENEDORES INSERTAR*/
+#contenedorINS {
+
+    display: table;
+    border: 1px solid #000;
+   /* width: 333px;*/
+    /*text-align: center;*/
+    margin-top: 1%;
+    margin-left: 15% ;
+    margin-bottom: 2%;   
+}
+#contenidosINS {
+    display: table-row;
+}
+#columnaINS{
+    display: table-cell;
+    /*border: 1px solid #000;*/
+    vertical-align: middle;
+    padding: 10px; 
+}
+#columna2INS{
+    display: table-cell;
+    /*border: 1px solid #000;*/
+    vertical-align: middle;
+    margin-right: 100px; 
+}
+#aliFoot{
+/*clear: left;*/
+}
+/*CONTENEDORES USUARIOS*/
+#ojala{
+    display: table;
+    border: 2px solid #000;*/
+    width: 333px;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+}
+#contenidos {
+    display: table-row;
+}
+
+#columna{
+    display: table-cell;
+    /*border: 1px solid #000;*/
+    vertical-align: middle;
+    padding: 10px; 
+}
